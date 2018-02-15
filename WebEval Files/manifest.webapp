@@ -1,0 +1,35 @@
+{
+  "version": "0.1",
+  "name": "WebEval",
+  "description": "A sample MDN app that uses getUserMedia and MediaRecorder API for recording audio snippets, and The Web Audio API for visualizations, and the ability to respond to prompted questions",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "app-icons/icon-60.png",
+    "128": "app-icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Timothy Tripp",
+    "url": "https://www.linkedin.com/in/timtripp-compscihub/"
+  },
+  "locales": {
+    "es": {
+      "description": "A sample MDN app that uses getUserMedia and MediaRecorder API for recording audio snippets, and The Web Audio API for visualizations.",
+      "developer": {
+        "url": "https://www.linkedin.com/in/timtripp-compscihub/"
+      }
+    },
+    "it": {
+      "description": "A sample MDN app that uses getUserMedia and MediaRecorder API for recording audio snippets, and The Web Audio API for visualizations.",
+      "developer": {
+        "url": "https://www.linkedin.com/in/timtripp-compscihub/"
+      }
+    }
+  },
+  "default_locale": "en",
+  "permissions": {
+    "audio-capture": {
+      "description": "Required to capture audio via getUserMedia"
+    }
+  },
+  "orientation": "portrait"
+}
